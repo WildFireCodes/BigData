@@ -1,0 +1,5 @@
+Apache Hive wspieral indeksacje pod katem optymalizacji zapytan do wersji 3.0. Od wersji 3.0 zostala ona usunieta (zrodlo: https://cwiki.apache.org/confluence/display/Hive/LanguageManual+Indexing).
+
+W celu rozwiazania problemu indeksacji mozna rozwazyc wybor np. SQLite3, Hive jest lepszu do danych nieustruktyrozwanych, konfiguracji, pamieci podrecznej itd.
+
+Innym rozwiazaniem jest uzycie plikow .ORC, ktore maja wbudowane indeksy, co pozwala pomijac bloki danych w trakcie operacji odczytu.
